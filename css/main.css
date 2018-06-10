@@ -1,0 +1,270 @@
+* {
+  z-index: 2;
+}
+
+.grad {
+  height: 100vh;
+  background: linear-gradient(to right, skyblue, blue);
+  opacity: 1;
+
+}
+
+
+
+
+.dial-bg {
+  background: beige;
+  position: relative;
+  height: 600px;
+  width: 600px;
+  border-radius: 100%;
+  overflow: hidden;
+  top: 250px;
+  margin: 0 auto;
+  transition: 1000ms;
+}
+
+.dial-bg:hover {
+  background: rgb(240, 209, 135);
+}
+
+.circle {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  background: red;
+  left: 60%;
+  position: absolute;
+  transition: 1000ms;
+}
+
+.circle:hover {
+  background:rgb(0, 255, 110);
+}
+
+.circle2 {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  background: blue;
+  right: 60%;
+  position: absolute;
+  transition: 1000ms;
+}
+
+.circle2:hover {
+  background:rgb(255, 146, 42);
+}
+
+.circle3 {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  background: green;
+  left: 60%;
+  bottom: 0;
+  position: absolute;
+  transition: 1000ms;
+}
+
+.circle3:hover {
+  background:rgb(0, 156, 255);
+}
+
+.circle4 {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  background: yellow;
+  right: 60%;
+  bottom: 0;
+  position: absolute;
+  transition: 1000ms;
+}
+
+.circle4:hover {
+  background:indigo;
+}
+
+
+
+.dial {
+  height: 600px;
+  width: 30px;
+  background: cyan;
+  transform: skew(45deg);
+  transition: 1000ms;
+  bottom: 0;
+  right:50%;
+  position:absolute;
+}
+
+.dial:hover {
+  transform: skew(0deg);
+}
+
+.dial2 {
+  height: 600px;
+  width: 30px;
+  background: blue;
+  transform: skew(40deg);
+  transition: 1000ms;
+  bottom: 0;
+  right:45%;
+  position:absolute;
+}
+
+.dial2:hover {
+  transform: skew(0deg);
+}
+
+.dial3{
+  height: 600px;
+  width: 30px;
+  background: violet;
+  transform: skew(35deg);
+  transition: 1000ms;
+  bottom: 0;
+  right:40%;
+  position:absolute;
+}
+
+.dial3:hover {
+  transform: skew(0deg);
+}
+
+.dial4{
+  height: 600px;
+  width: 30px;
+  background: green;
+  transform: skew(30deg);
+  transition: 1000ms;
+  bottom: 0;
+  right:35%;
+  position:absolute;
+}
+
+.dial4:hover {
+  transform: skew(0deg);
+}
+
+.dial5 {
+  height: 600px;
+  width: 30px;
+  background: purple;
+  transform: skew(-45deg);
+  transition: 1000ms;
+  bottom: 0;
+  left:50%;
+  position:absolute;
+}
+
+.dial5:hover {
+  transform: skew(0deg);
+}
+
+.dial6 {
+  height: 600px;
+  width: 30px;
+  background: red;
+  transform: skew(-40deg);
+  transition: 1000ms;
+  bottom: 0;
+  left:45%;
+  position:absolute;
+}
+
+.dial6:hover {
+  transform: skew(0deg);
+}
+
+.dial7{
+  height: 600px;
+  width: 30px;
+  background: orange;
+  transform: skew(-35deg);
+  transition: 1000ms;
+  bottom: 0;
+  left:40%;
+  position:absolute;
+}
+
+.dial7:hover {
+  transform: skew(0deg);
+}
+
+.dial8{
+  height: 600px;
+  width: 30px;
+  background: yellow;
+  transform: skew(-30deg);
+  transition: 1000ms;
+  bottom: 0;
+  left:35%;
+  position:absolute;
+}
+
+.dial8:hover {
+  transform: skew(0deg);
+}
+
+.dial9 {
+  height: 600px;
+  width: 30px;
+  background: black;
+  /* transform: skew(1deg); */
+  transition: 1000ms;
+  bottom: 0;
+  left:48%;
+  position:absolute;
+  z-index: 1;
+}
+
+.dial9:hover {
+  transform: skew(90deg);
+}
+
+/* .dial10 {
+  height: 600px;
+  width: 30px;
+  background: red;
+  transform: skew(-40deg);
+  transition: 1000ms;
+  bottom: 0;
+  left:45%;
+  position:absolute;
+}
+
+.dial10:hover {
+  transform: skew(0deg);
+}
+
+.dial11{
+  height: 600px;
+  width: 30px;
+  background: orange;
+  transform: skew(-35deg);
+  transition: 1000ms;
+  bottom: 0;
+  left:40%;
+  position:absolute;
+}
+
+.dial11:hover {
+  transform: skew(0deg);
+}
+
+.dial12{
+  height: 600px;
+  width: 30px;
+  background: violet;
+  transform: skew(-30deg);
+  transition: 1000ms;
+  bottom: 0;
+  left:35%;
+  position:absolute;
+}
+
+.dial2:hover {
+  transform: skew(0deg);
+} */
